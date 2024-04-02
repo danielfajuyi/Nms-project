@@ -5,10 +5,69 @@
     height: 100vh;
 
     padding-right: 50px;
-    padding-top: 20%;
+    padding-top: 7%;
 
     width: 100%;
     z-index: -1;
-    .hero-section {
-    }
+    text-align: justify;
+    text-align: center;
+    justify-content:center;
+    
+   
 }
+.hero-section {
+    padding: 0px;
+    color:white;
+    font-size: 4VH;
+    align-items:center;
+    position:relative;
+    text-align: justify;
+    justify-content: center;
+
+
+}
+.container{
+    text-align: center;
+    color:black;
+}
+ .container h1{
+    margin-bottom: 20px;
+    color: white;
+ }
+.container div{
+    padding-bottom: 20px;
+}
+@media screen and (max-width:500px) {
+
+    .container div{
+    padding-bottom:0px;
+}
+
+}
+.be{
+    
+}
+p button{
+   width: 150px;
+    border-radius: 20px;
+    background-color:white;
+    height: 50px;
+    border: 2px rid black;
+    
+
+
+    
+}
+p button:hover{
+transform: scale(1.1);
+border: 2px ridge white;
+background: transparent;
+}
+button a{
+    padding: 5%;
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
